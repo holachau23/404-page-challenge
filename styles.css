@@ -1,0 +1,142 @@
+:root {
+    --gray-01: #333333;
+    --gray-02: #4F4F4F;
+    --light-grey: #BDBDBD;
+    --white: #FFFFFF;
+}
+
+body {
+    font-size: 14px;
+}
+
+#not-found {
+    position: absolute;
+    top: 40px;
+    left: 77px;
+    height: 25px;
+    width: 133px;
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    color: var(--gray-01)
+}
+
+#scarecrow {
+    position: absolute;
+    height: 447.43px;
+    width: 539.22px;
+    left: 77px;
+    top: 265px;
+    scale: 0.5;
+}
+
+#bad-news {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: var(--gray-01)
+}
+
+#info {
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: var(--gray-02)
+}
+
+#go-back {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--gray-01);
+    border: none;
+}
+
+#created-by {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    color: var(--light-grey)
+}
+
+#user, #user:visited {
+    text-decoration: underline;
+    color: inherit;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:600px) {
+    #not-found {
+        left: 24px;
+        top: 20px;
+    }
+
+    #scarecrow {
+        left: 44px;
+        top: 109px;
+        width: 286.83px;
+        height: 238px;
+    }
+
+    #bad-news {
+        left: 24px;
+        top: 407px;
+        width: 350px;
+        height: 142px;
+        font-size: 48px;
+        line-height: 71px;
+    }
+
+    #info {
+        left: 23px;
+        top: 579px;
+        width: 328px;
+        height: 81px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    #go-back {
+        left: 24px;
+        top: 726px;
+    }
+
+    #created-by {
+        left: 46px;
+        top: 908px;
+        text-align: center;
+    }
+}
